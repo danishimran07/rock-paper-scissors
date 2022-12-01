@@ -52,7 +52,7 @@ let score =0;
   function stop (){
     clearInterval(id);
     point1 = pointer[pointer.length-1];
-    if(q!=point1){ if ((q==0&&point1==1)||(q==1&&point1==2)||(q==2&&point1==0))
+    if(q!=point1){ if ((q==0&&point1==2)||(q==1&&point1==0)||(q==2&&point1==1))
                        {
                         display.innerText= 'YOU WON'; score+=1; 
                         console.log(score)

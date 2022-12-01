@@ -31,3 +31,23 @@ The designs were created to the following widths:
 
 - Family: [Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed)
 - Weights: 600, 700
+
+@media screen and (min-width: 375px) {
+.outer{
+justify-content: space-between;
+padding: 50px 300px;
+}
+
+    .upper, .middle, .middle2, .result, .rules, .lower-lower{
+        width: 100%;
+    }
+    .m-up button, .m-dn button{
+        width: 200px;
+        height: 200px;
+    }
+
+    .m-up{
+        gap: 400px;
+    }
+
+}
