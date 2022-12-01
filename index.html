@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+ 
+
+  
+</head>
+<body>
+<div class="outer">
+  <div class="upper">
+    <div class="logo"><img src="./images/logo.svg" alt=""></div>
+    <div class="score"><h6>SCORE</h6><span><h1 id="score">0</h1></span></div>
+  </div>
+  <div class="middle">
+    <div class="m-up">
+      <button class="blue"><img src="./images/icon-paper.svg" alt="" class="start"></button>
+      <button class="yellow"><img  src="./images/icon-scissors.svg" alt="" class="start"></button>
+    </div>
+    <div class="m-dn"><button class="red"><img src="./images/icon-rock.svg" alt="" class="start"></button></div>
+  </div>
+  <div class="middle2">
+    <div class="m-up">
+      <button id="selection" class="blue"><img id="user" src="./images/icon-paper.svg" alt=""></button>
+      <button id="com" class="yellow"><img id="computer" src="./images/icon-scissors.svg" alt=""></button>
+    </div>
+  </div>
+  <div class="result">
+    <h1 id="display"></h1>
+    <button id="restart">PLAY AGAIN</button>
+
+  </div>
+  <div class="lower-lower"><button>RULES </button></div>
+  <div class="rules">
+      <h1>RULES</h1>
+    <img src="./images/image-rules.svg" alt="">
+    <button class="close"><img src="./images/icon-close.svg" alt=""></button>
+  </div>
+    
+</div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
