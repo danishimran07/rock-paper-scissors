@@ -150,23 +150,3 @@ body{
     border: none;
     cursor: pointer;
 }
-
-@media screen and (min-width: 375px) {
-    .outer{
-        justify-content: space-between;
-        padding: 50px 300px;
-    }
-
-    .upper, .middle, .middle2, .result, .rules, .lower-lower{
-        width: 100%;
-    }
-    .m-up button, .m-dn button{
-        width: 200px;
-        height: 200px;
-    }
-
-    .m-up{
-        gap: 400px;
-    }
-}
-
