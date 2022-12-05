@@ -11,7 +11,7 @@ const restart = document.getElementById('restart');
 const user = document.getElementById('user');
 const selection = document.getElementById('selection');
 const com = document.getElementById('com');
-const rules = document.querySelector('.lower-lower');
+const rules = document.querySelector('.rules-button');
 const closeMenu = document.querySelector('.close');
 const rulesMenu = document.querySelector('.rules');
 

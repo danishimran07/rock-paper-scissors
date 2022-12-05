@@ -142,6 +142,9 @@ body{
     height: 100vh;
     background-color: white; 
     padding: 50px;
+    background-image: url(./images/image-rules.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .rules h1{
     color:hsl(214, 47%, 23%) ;
@@ -150,3 +153,68 @@ body{
     border: none;
     cursor: pointer;
 }
+
+
+@media screen and (min-width: 775px) {
+    .outer{
+        justify-content: center;
+        padding: 50px 300px;
+    }
+    .middle{
+        background-size: auto auto;
+
+    }
+
+    .upper, .middle, .middle2, .result, .rules, .lower-lower{
+        width: 100%;
+    }
+    .m-up button, .m-dn button{
+        width: 10.5rem;
+        height: 10.5rem;
+    }
+ 
+    .m-up{
+        gap: 7.5rem;
+        
+    }
+    .logo img{
+        width: 100%;
+    }
+    .yellow {
+        border: 20px solid hsl(39, 89%, 49%);
+        box-shadow: 0px 8px hsl(30, 83%, 45%) , 0px 8px hsl(0, 1%, 77%) inset;
+    }
+    .blue{
+        border: 20px solid hsl(230, 89%, 62%);
+        box-shadow: 0px 8px hsl(221, 68%, 41%), 0px 8px hsl(0, 1%, 77%) inset  ;
+    
+    }
+    
+    .red{
+        border: 20px solid  hsl(349, 70%, 56%);
+        box-shadow: 0px 8px hsl(349, 71%, 52%), 0px 8px hsl(0, 1%, 77%) inset  ;
+    
+    }
+
+    .lower-lower{
+        display: flex;
+        justify-content: end;
+    }
+    .rules{
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around   ;
+        align-items: center;
+        width: 25vw;
+        height: 60vh;
+        background-color: white; 
+        padding: 50px;
+        border-radius: 5px;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
+
